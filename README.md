@@ -16,9 +16,9 @@ You'll be asked for the url, admin name, and password of your CouchDB. You'll be
 
 So, even if you don't use Syncpoint, Syncpoint-and-Couch-Cleaner still makes cleaning up a bunch of CouchDB databases a breeze with the power of drag-n-drop (well, more like copy/pasting stuff in a text file).
 
-![Screenshot](https://s3.amazonaws.com/files.droplr.com/files_production/acc_60414/ZAiD?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1350771487&Signature=HDk%2BfVyvhQIZoI%2FHkMAS7VJcpZg%3D&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27Screenshot%2B2012-10-20%2Bat%2B14.17.44.png)
+![Screenshot](http://i45.tinypic.com/fef68g.png)
 
-![Screenshot](https://s3.amazonaws.com/files.droplr.com/files_production/acc_60414/mqsA?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1350770545&Signature=LpjPuXc2Rkx9nlcYS0FWcXPulkE%3D&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27Screenshot%2B2012-10-20%2Bat%2B14.01.37.png)
+![Screenshot](http://i49.tinypic.com/f8nth.png)
 
 It would be nice to also be able to similarly handle design docs, but I got tired so I didn't fully implement it (the code is commented out in the script).
 
