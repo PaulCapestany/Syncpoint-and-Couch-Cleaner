@@ -181,7 +181,7 @@ if [[ $SHOULD_CLEAN_SYNCPOINT =~ ^y[e]?[s]? ]]
 				fi		
 			done
 
-		echo -e "\nCOOLIO... all Syncpoint stuff is cleaned up!\n"
+		echo -e "\nAlrighty — all Syncpoint stuff is cleaned up!\n"
 
 		echo -e "$KEEP\n" > _all_dbs.txt
 		# create list of all databases, again            # get rid of [" and "]            # insert newline at each "," between results
@@ -263,6 +263,19 @@ if [[ $MANUALLY_MANAGE =~ ^y[e]?[s]? ]]
 	fi
 fi
 
-echo -e "\nAll done. Ciao!\n"
+if [ -e _all_dbs.txt ]
+	then
+	rm _all_dbs.txt
+fi
+if [ -e awk_results.txt ]
+	then
+	rm awk_results.txt
+fi
+if [ -e docs_to_delete.txt ]
+	then
+	rm docs_to_delete.txt
+fi
+
+echo -e "\nAll done — ciao!\n"
 
 

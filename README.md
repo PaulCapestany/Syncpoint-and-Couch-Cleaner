@@ -1,10 +1,12 @@
 # Syncpoint-and-Couch-Cleaner
 
-**Syncpoint-and-Couch-Cleaner** is a CLI tool that quickly cleans up/deletes all [Syncpoint][1]-generated databases, such as `sp_admin`, `channel-*`, and `control-*`.
+Presented to you by — [Paul Capestany][1]
+
+*Syncpoint-and-Couch-Cleaner* is a CLI tool that quickly cleans up/deletes all [Syncpoint][2]-generated databases, such as `sp_admin`, `channel-*`, and `control-*`.
 
 It also cleans up the `_users` DB by removing documents of type `org.couchdb.user*`. Similarly, it cleans up the `_replicator` DB by removing documents of type `global-control-*`. 
 
-You can also use **Syncpoint-and-Couch-Cleaner** to delete a bunch of CouchDB databases all at once instead of doing it individually via the web admin interface.
+You can also use *Syncpoint-and-Couch-Cleaner* to delete a bunch of CouchDB databases all at once instead of doing it individually via the web admin interface.
 
 ## How to use
 
@@ -14,7 +16,7 @@ You'll be asked for the url, admin name, and password of your CouchDB. You'll be
 
 ## Drag-n-drop to delete databases
 
-So, even if you don't use Syncpoint, Syncpoint-and-Couch-Cleaner still makes cleaning up a bunch of CouchDB databases a breeze with the power of drag-n-drop (well, more like copy/pasting stuff in a text file).
+So, even if you don't use Syncpoint, *Syncpoint-and-Couch-Cleaner* still makes cleaning up a bunch of CouchDB databases a breeze with the power of drag-n-drop (well, more like copy/pasting stuff in a text file).
 
 ![Screenshot](http://i45.tinypic.com/fef68g.png)
 
@@ -24,6 +26,7 @@ It would be nice to also be able to similarly handle design docs, but I got tire
 
 This is my first CLI tool and I mostly just wanted to play with Bash/scripting, so I basically had no idea what I was doing. 
 
-That said, suggestions/questions/feedback are welcome! 
+That said, all suggestions/questions/feedback are welcome! 
 
-[1]:https://github.com/couchbaselabs/Syncpoint-API
+[1]: http://paulcapestany.com
+[2]: https://github.com/couchbaselabs/Syncpoint-API
